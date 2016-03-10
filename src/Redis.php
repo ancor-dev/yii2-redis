@@ -104,7 +104,9 @@ class Redis extends Component
          * @return \Redis
          */
         return function() use ($config) {
-            $redis = Yii::createObject(static::className(), $config);
+            $redis = Yii::createObject(array_merge([
+                'class' => static::className(),
+            ], $config));
             return $redis->conn;
         };
     } // end build()
