@@ -2,7 +2,7 @@
 
 ## Description
 
-This component depend on really powerful [php-redis](https://github.com/phpredis/phpredis) extension.  
+This component is wrapper, it based on really powerful [php-redis](https://github.com/phpredis/phpredis) extension.  
 Please, install those php-extension before use this.
 
 Documentation can be found at [here](https://github.com/phpredis/phpredis#table-of-contents)
